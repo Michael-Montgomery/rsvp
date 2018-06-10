@@ -1,0 +1,43 @@
+#login-wrapper {
+    border: 1px solid;
+    width: 500px;
+    /* height: 300px; */
+    padding-bottom: 20px;
+}
+
+#login-wrapper p {
+    font-size: 1.4em;
+}
+
+#login-wrapper form {
+    text-align: center;
+}
+
+#login-wrapper input[type=email] {
+    font-size: 2em;
+    width: 400px;
+    text-align: center;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+#login-wrapper input[type=password] {
+    font-size: 2em;
+    width: 400px;
+    text-align: center;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+#login-wrapper button {
+    width: 400px;
+    font-size: 2em;
+    background: #9796f0;
+    border: none;
+    color: white;
+    transition: all .4s;
+}
+
+#login-wrapper button:hover {
+    background-color: #fbc7d4;
+}

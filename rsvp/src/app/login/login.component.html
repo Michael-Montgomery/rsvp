@@ -1,0 +1,11 @@
+<div id="login-wrapper">
+  <form #loginForm="ngForm" (ngSubmit)="submitLogin(loginForm.value)">
+    <p>Enter your email address to get started.</p><br>
+    <input type="email" name="email" placeholder="Email" required ngModel><br>
+
+    <input type="password" name="pass" *ngIf="showPass"  placeholder="Password" required ngModel><br>
+    <button type="submit" [disabled]="subDisabled">Submit</button>
+
+
+  </form>
+</div>

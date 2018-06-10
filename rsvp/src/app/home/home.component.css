@@ -1,0 +1,44 @@
+.home-one {
+    height: 45vh;
+    background-image: url("https://images.pexels.com/photos/1083623/pexels-photo-1083623.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-size: cover;
+}
+
+.home-two {
+    min-height: 30vh;
+    background-color: #9796f0;
+    padding: 20px 40px;
+}
+
+.home-two h2 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.home-two p {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.home-two ul {
+    text-align: center;
+}
+
+.home-two ul li {
+    display: inline;
+}
+
+.home-two ul li button {
+    font-size: 2em;
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    transition: all .4s;
+}
+
+.home-two ul li button:hover {
+    background-color: #fbc7d4;
+    border: 3px solid #fbc7d4;
+}

@@ -3,10 +3,18 @@ header {
 }
 
 header nav {
-    text-align: center
+    text-align: center;
+    line-height: 70px;
 }
 
 header nav a {
     color: white;
     font-size: 2em;
+    text-decoration: none;
+    margin: 0 5vw;
+    transition: all .4s;
+}
+
+header nav a:hover {
+    color: #fbc7d4;
 }
