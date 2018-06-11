@@ -3,3 +3,35 @@
     width: 100px;
     border: 1px solid;
 }
+
+#dash-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+#dash-list li {
+    display: inline;
+}
+
+.dash-div {
+    display: inline-block;
+    width: 45vw;
+    height: 40vh;
+    overflow-y: scroll;
+}
+
+#dash-events-list {
+    padding-left: 0;
+}
+
+.dash-event-wrapper {
+    height: 65px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.dash-title {
+   /* line-height: 65px; */
+   float: left;
+}

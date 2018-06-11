@@ -1,1 +1,30 @@
 <app-header></app-header>
+<ul id="dash-list">
+  <li>
+    <div class="dash-div">
+
+    </div>
+  </li>
+  <li>
+      <div class="dash-div">
+        <h2>My Events</h2><br>
+        <ul id="dash-events-list">
+          <li *ngFor="let event of events">
+            <div class="dash-event-wrapper">
+              <p class="dash-title">{{event.title}}</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li>
+        <div class="dash-div">
+    
+        </div>
+      </li>
+      <li>
+          <div class="dash-div">
+      
+          </div>
+        </li>
+</ul>
